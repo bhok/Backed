@@ -2548,7 +2548,7 @@ bool LoadBlockIndex(bool fAllowNew)
     if (mapBlockIndex.empty())
     {
         if (!fAllowNew)
-            return false;
+            return true;
 
         // Genesis block
 
