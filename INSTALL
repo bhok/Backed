@@ -1,0 +1,9 @@
+Building Backed
+
+See doc/readme-qt.rst for instructions on building Backed QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of Backed.
+
+See doc/build-*.txt for instructions on building Backedd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Backed.
