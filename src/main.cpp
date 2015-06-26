@@ -2869,7 +2869,7 @@ bool static AlreadyHave(CTxDB& txdb, const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0xa4, 0xd2, 0xf8, 0xa6 };
+unsigned char pchMessageStart[4] = { 0xb7, 0xb7, 0xf7, 0xb7 };
 
 bool static ProcessMessage(CNode* pfrom, string strCommand, CDataStream& vRecv)
 {
